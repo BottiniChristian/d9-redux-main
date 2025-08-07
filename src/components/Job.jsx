@@ -35,7 +35,7 @@ const Job = ({ data }) => {
           variant={isFavourite ? 'danger' : 'outline-success'}
           onClick={toggleFavourite}
         >
-          {isFavourite ? '★ Rimuovi dai preferiti' : '☆ Aggiungi ai preferiti'}
+          {isFavourite ? '★ Remove from Favourites' : '☆ Add to Favourites'}
         </Button>
       </Card.Body>
     </Card>
